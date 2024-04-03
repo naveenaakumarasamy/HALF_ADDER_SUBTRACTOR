@@ -30,13 +30,15 @@ Borrow = A’B
  ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
 
 ## Truthtable:
-##Half adder
+### Half adder
 
-![alt text](halfadd.png)
+![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/c6be8ab3-afc3-46b6-bb9f-ed9dfdccd789)
 
-##Half subtractor
 
-![alt text](<half sub.png>)
+### Half subtractor
+
+![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/f4758c11-2a79-4fff-ad9e-06f8778f9808)
+
 
 ## Procedure:
 
@@ -58,7 +60,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by:Naveenaa A K
 RegisterNumber: 212222230094
 
-##Half adder
+## Half adder
 ```
 module half_adder(a,b,sum,carry);
 input a,b;
@@ -67,7 +69,7 @@ assign sum = a^b;
 assign carry = a & b;
 endmodule
 ```
-##Half subtractor
+## Half subtractor
 ```
 module halfsub_top(a,b,D,Bo);
 input a,b;
@@ -77,15 +79,17 @@ assign D = a ^ b;
 endmodule
 ```
 ## RTL Schematic:
-![alt text](ex2.png)
+![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/52778287-2bd2-42e3-925a-cb39db1b7c47)
+
 ## Output/TIMING Waveform:
 
-##Half adder
-![alt text](<Screenshot 2024-03-18 083918.png>)
+### Half adder
+![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/a7bef830-f924-45b5-aba9-fa697bbf7354)
 
 
-##Half subtractor
-![alt text](<Screenshot 2024-03-18 085326.png>)
+### Half subtractor
+![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/10ca2fb4-9ef9-405d-aa3d-b121bc870673)
+
 
 ## Result:
 Thus implementation of Half Adder and Half subtractor circuit is running successfully.
