@@ -79,7 +79,7 @@ assign D = a ^ b;
 endmodule
 ```
 ## RTL Schematic:
-![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/52778287-2bd2-42e3-925a-cb39db1b7c47)
+![image](https://github.com/naveenaakumarasamy/HALF_ADDER_SUBTRACTOR/assets/113497406/a827030b-859d-43f4-a65e-ec62dd923da0)
 
 ## Output/TIMING Waveform:
 
